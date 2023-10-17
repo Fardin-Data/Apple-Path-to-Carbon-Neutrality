@@ -177,6 +177,9 @@ This project was not only about data analysis but also a valuable learning journ
 
 - As Apple continues its journey, these insights and recommendations can serve as a roadmap for achieving its ambitious 2030 carbon neutrality goal.
 
+## Project Presentation
+- [Apple's Path to Carbon Neutrality](https://www.canva.com/design/DAFxghBnpjM/L4l3qM3QtZGExYjsbkq3FA/view?utm_content=DAFxghBnpjM&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+  
 ## Folder/Files Information
 
 - **Data Folder**
