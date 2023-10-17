@@ -23,6 +23,7 @@ The cleaned data underwent analysis using matrix visualizations in Power BI, pro
 `Measures Creation with Power BI`
 
 To enhance the analysis, custom measures were created using Power BI, allowing for more sophisticated calculations and insights.
+Following is the example of creating a measure that calculated the reduction percentage in the emissions from 2015 to 2022:
 
 <pre><code>
     (
