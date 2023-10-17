@@ -80,5 +80,127 @@ Derived from various insights, a set of recommendations was formulated to achiev
 </table>
 
 
+<table>
+  <tr>
+    <td valign="top">
+      <strong>Product Life Cycle vs. Corporate Emissions:</strong><br /><br />
+      Product life cycle emissions significantly outweigh corporate emissions. Nevertheless, both have witnessed exponential reductions. Notably, corporate operations have already achieved carbon neutrality, marking a significant milestone on our sustainability journey.
+    </td>
+    <td valign="middle">
+      <img src= "https://github.com/Fardin-Data/Apple-Path-to-Carbon-Neutrality/assets/137788371/2d99bb9d-43a0-4fb9-9df2-89125e3da783" alt="image" width="3000" height="200" />
+    </td>
+  </tr>
+</table>
 
 
+<table>
+  <tr>
+    <td valign="middle">
+      <img src="https://github.com/Fardin-Data/Apple-Path-to-Carbon-Neutrality/assets/137788371/3688e436-e746-428d-8acf-e36ca286838d" alt="image" width="3000" height="200" />
+    </td>
+    <td valign="top">
+      <strong>Key Emission Contributors:</strong><br /><br />
+      The three primary sources of emissions are Manufacturing (including Purchased Goods and Services), Product Use (including the use of sold products), and Product Transportation (both upstream and downstream). Identifying and addressing these sources have been pivotal in our emission reduction efforts.
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td valign="top">
+      <strong>Positive Correlation with Business Success:</strong><br /><br />
+      Counterintuitively, our exponential reduction in carbon emissions has positively impacted our business. Our revenue and market capitalization have been consistently increasing since 2015, reaching their zenith in 2022. This demonstrates that our commitment to sustainability aligns with our financial growth.
+    </td>
+    <td valign="middle">
+      <img src="https://github.com/Fardin-Data/Apple-Path-to-Carbon-Neutrality/assets/137788371/92fd777e-0f22-493a-b224-2efcd561fbbf" alt="image" width="3000" height="200" />
+    </td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td valign="middle">
+      <img src= "https://github.com/Fardin-Data/Apple-Path-to-Carbon-Neutrality/assets/137788371/9f52981f-c140-4b72-a95b-902b3439b84c" alt="image" width="3000" height="200" />
+    </td>
+    <td valign="top">
+      <strong>Effective Scope 3 Emission Management:</strong><br /><br />
+      Among the various sources of emissions, Scope 3 emissions, comprising purchased goods and services, transportation and distribution, business travel, employee commute, product use, and end-of-life factors, have consistently decreased since 2015. Notably, Scope 3 emissions represent the highest contributor to our overall emissions. Our dedicated efforts in reducing these emissions have yielded substantial results, marking a reduction from approximately 40 million metric tons CO2e to 20 million metric tons CO2e in 2022.
+    </td>
+  </tr>
+</table>
+
+## Recommendations:
+- **Accelerate Emission Reduction Efforts:** Consider strategies to further accelerate the reduction of emissions. This will help ensure that the 2030 target is met well ahead of schedule, providing a buffer for any unexpected challenges.
+
+- **Sustain Focus on Scope 3 Emissions:** Given that Scope 3 emissions are the highest contributor to overall emissions, continue dedicated efforts in managing and reducing these emissions. Implement supply chain and transportation efficiency measures to further cut down on these emissions.
+
+- **Innovate for Product Carbon Neutrality:** Emphasize the development of products with lower carbon footprints. Continue the trend of lowering the carbon footprint of products throughout their life cycles. Invest in research and innovation to create more eco-friendly designs, materials, and manufacturing processes.
+
+- **Promote Sustainable Product Use:** Educate and incentivize customers to use products in an environmentally responsible manner. This may involve optimizing device settings, prolonging product lifecycles, and recycling old products.
+
+- **Collaborate with Suppliers:** Collaborate closely with suppliers to reduce emissions associated with manufacturing. Encourage and support suppliers in adopting greener practices and sourcing more sustainable materials.
+
+- **Enhance Carbon Offset Strategies:** Continuously evaluate and improve carbon offset initiatives. Explore innovative approaches to carbon offsetting, such as investing in reforestation and renewable energy projects, to make the remaining 25% of emissions removal more efficient and impactful.
+
+
+## Challenges Faced
+
+During the course of this project, several challenges were encountered:
+
+- **Understanding the Data:** The dataset used in this analysis presented complexities in understanding the data structure and identifying key performance indicators (KPIs). Initially, it was challenging to determine which data points were most relevant for the analysis. However, through thorough exploration and spending time with the data, I was able to gain a deeper understanding and identify important KPIs. This experience significantly improved my analytical abilities and problem-solving skills.
+
+- **Dealing with Null Values:** Null values in the dataset posed a challenge, especially given the relatively small dataset size. Imputing null values proved to be complex, as finding meaningful patterns for replacement was not straightforward. Ultimately, the decision was made to drop null values, as replacing them with arbitrary values would not have been appropriate. This challenge provided insights into the importance of data quality and integrity in the analysis process.
+
+## Learnings
+
+Through the course of this project, I gained valuable knowledge and experience in several key areas:
+
+- **Data Analysis and Visualization:** This project allowed me to enhance my data analysis and visualization skills. I learned how to effectively explore and analyze data, create meaningful visualizations, and communicate insights through data-driven reports.
+
+- **Problem-Solving:** Dealing with complex datasets and challenges in data understanding and quality improved my problem-solving abilities. It taught me to approach problems methodically and explore different solutions.
+
+- **Domain Knowledge:** The project provided me with a deeper understanding of environmental sustainability, carbon emissions, and Apple's commitment to carbon neutrality. This domain knowledge will be invaluable in future projects related to sustainability and corporate responsibility.
+
+- **Data Integrity:** The experience of handling null values reinforced the importance of data integrity and the need for data cleaning and validation processes in any data analysis project.
+
+- **Recommendation Generation:** Formulating recommendations based on data analysis findings enhanced my ability to translate insights into actionable strategies for achieving sustainability goals.
+
+This project was not only about data analysis but also a valuable learning journey that equipped me with new skills and insights to tackle similar challenges in the future.
+
+Certainly, I'll format the data dictionary in the format you requested. Here's the Data Dictionary for your project:
+
+## About The Data Set
+The dataset contains 3 tables, in CSV format. The "Greenhouse Gas Emissions" table contains the sources of Apple's greenhouse gas emissions from 2015 to 2022 divided by category (corporate & product life cycle), scope (direct scope 1 emissions & indirect scope 2 and 3 emissions), and type (emissions & removals). The "Carbon Footprint by Product" table contains the emissions from the product life cycle of every baseline iPhone model released between 2015-2022. The "Normalizing Factors" table contains Apple's revenue, market cap, and employees during the same period.
+
+## Data Dictionary
+
+- **Greenhouse gas emissions Table**
+  
+  | Field          | Description                                                |
+  | ---------------|------------------------------------------------------------|
+  | Fiscal Year    | Apple's fiscal calendar starts on the last Sunday of September and is 364 days long |
+  | Category       | Emissions are divided into two categories: corporate emissions and product life cycle emissions |
+  | Type           | There are two types of emissions data included: gross emissions (which add to the carbon footprint) and carbon removals (which subtract from the carbon footprint) |
+  | Scope          | There are three scopes: direct scope 1 emissions; indirect scope 2 emissions from purchased electricity, steam, heating, and cooling; and indirect scope 3 emissions from purchased goods and services, transportation and distribution, business travel, employee commute, product use, and end of life |
+  | Description    | The source of the greenhouse gas emissions |
+  | Emissions      | Greenhouse gas emissions (metric tons CO2e) |
+
+- **Carbon footprint by product Table**
+
+  | Field             | Description                                                |
+  | ------------------|------------------------------------------------------------|
+  | Release Year      | Year the product was released |
+  | Product           | Product name |
+  | Baseline Storage  | Lowest storage option |
+  | Carbon Footprint  | Greenhouse gas emissions from the product life cycle (kg CO2e) |
+
+- **Normalizing factors Table**
+
+  | Field          | Description                                                |
+  | ---------------|------------------------------------------------------------|
+  | Fiscal Year    | Figures are as of the end of the fiscal year |
+  | Revenue        | Net sales (in millions, US$) |
+  | Market Capitalization | Value of the company (in billions, US$) |
+  | Employees      | Number of full-time equivalent employees |
