@@ -169,7 +169,6 @@ Through the course of this project, I gained valuable knowledge and experience i
 
 This project was not only about data analysis but also a valuable learning journey that equipped me with new skills and insights to tackle similar challenges in the future.
 
-Certainly, I'll format the data dictionary in the format you requested. Here's the Data Dictionary for your project:
 
 ## Folder/Files Information
 
