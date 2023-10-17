@@ -170,6 +170,12 @@ Through the course of this project, I gained valuable knowledge and experience i
 
 This project was not only about data analysis but also a valuable learning journey that equipped me with new skills and insights to tackle similar challenges in the future.
 
+## Summary
+- Apple's journey towards carbon neutrality by 2030 is marked by remarkable progress in reducing emissions. The company has achieved a 47.2% reduction in emissions in just seven years, positioning itself close to its 2030 goal. Notably, the commitment to sustainability has positively impacted Apple's business, with increasing revenues and market capitalization since 2015.
+
+- The analysis has identified key emission contributors, including product manufacturing and other important factors. The recommendations aim to further accelerate emission reduction, sustain efforts to manage emissions, innovate for product carbon neutrality, promote sustainable product use, collaborate with suppliers, and enhance carbon offset strategies.
+
+- As Apple continues its journey, these insights and recommendations can serve as a roadmap for achieving its ambitious 2030 carbon neutrality goal.
 
 ## Folder/Files Information
 
