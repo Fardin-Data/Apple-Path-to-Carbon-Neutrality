@@ -171,8 +171,27 @@ This project was not only about data analysis but also a valuable learning journ
 
 Certainly, I'll format the data dictionary in the format you requested. Here's the Data Dictionary for your project:
 
-## About The Data Set
-The dataset contains 3 tables, in CSV format. The "Greenhouse Gas Emissions" table contains the sources of Apple's greenhouse gas emissions from 2015 to 2022 divided by category (corporate & product life cycle), scope (direct scope 1 emissions & indirect scope 2 and 3 emissions), and type (emissions & removals). The "Carbon Footprint by Product" table contains the emissions from the product life cycle of every baseline iPhone model released between 2015-2022. The "Normalizing Factors" table contains Apple's revenue, market cap, and employees during the same period.
+## Folder/Files Information
+
+- **Data Folder**
+
+  The "Data" folder contains Excel workbooks that provide essential data for the analysis. Here are the files in this folder:
+
+  - `data_dictionary.xlsx`: This workbook contains information about all the tables and the fields in them.
+  - `carbon_footprint_by_product.xlsx`: Provides data on carbon footprints for various Apple products.
+  - `greenhouse_gas_emissions.xlsx`: Contains data related to greenhouse gas emissions, categorized by year, category, scope, and type.
+  - `normalizing_factors.xlsx`: Includes information on normalizing factors, such as revenue, market capitalization, and employee data.
+
+- **Report Folder**
+
+  Inside the "Report" folder, you will find a file named "Progress_Report.pbix." This Power BI file exclusively contains visuals and charts that provide a comprehensive visual summary of the project's findings and data analysis.
+
+  The "Progress_Report.pbix" file is structured as follows:
+
+  - `Report Sheet:` The report sheet is dedicated to visual representations of the project's key findings and data analysis. It includes charts, graphs, and visuals that offer a clear and concise overview of important metrics related to Apple's path to carbon neutrality. These visuals enable stakeholders to quickly grasp the project's insights and make informed decisions.
+
+  - `Insights & Recommendations Sheet:` The second sheet in "Progress_Report.pbix" focuses on insights and recommendations, offering in-depth analysis conclusions and providing recommendations for achieving the 2030 carbon neutrality goal effectively.
+
 
 ## Data Dictionary
 
@@ -204,3 +223,18 @@ The dataset contains 3 tables, in CSV format. The "Greenhouse Gas Emissions" tab
   | Revenue        | Net sales (in millions, US$) |
   | Market Capitalization | Value of the company (in billions, US$) |
   | Employees      | Number of full-time equivalent employees |
+
+## Tools Used:
+
+- `Power Query` Employed for data extraction, transformation, and loading (ETL).
+
+- `Power BI` Utilized for creating reports, including data visualization and presentation.
+
+## License
+This project is licensed under the MIT License, allowing you to use, modify, and distribute the code and visuals while maintaining the original license terms.
+
+---
+
+For questions or feedback, please contact: fardinkhan.data@gmail.com
+
+Enjoy exploring the project!
